@@ -1,0 +1,40 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ms-rest-js.deserializationPolicy
+    name: deserializationPolicy(DeserializationContentTypes)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: >-
+      Create a new serialization RequestPolicyCreator that will serialized HTTP
+      request bodies as they
+
+      pass through the HTTP pipeline.
+    syntax:
+      content: >-
+        function deserializationPolicy(deserializationContentTypes?:
+        DeserializationContentTypes)
+      parameters:
+        - id: deserializationContentTypes
+          type:
+            - ms-rest-js.DeserializationContentTypes
+          description: ''
+          optional: true
+      return:
+        type:
+          - ms-rest-js.RequestPolicyFactory
+    package: ms-rest-js
+references:
+  - uid: ms-rest-js.DeserializationContentTypes
+    name: DeserializationContentTypes
+    spec.typeScript:
+      - name: DeserializationContentTypes
+        fullName: DeserializationContentTypes
+        uid: ms-rest-js.DeserializationContentTypes
+  - uid: ms-rest-js.RequestPolicyFactory
+    name: RequestPolicyFactory
+    spec.typeScript:
+      - name: RequestPolicyFactory
+        fullName: RequestPolicyFactory
+        uid: ms-rest-js.RequestPolicyFactory

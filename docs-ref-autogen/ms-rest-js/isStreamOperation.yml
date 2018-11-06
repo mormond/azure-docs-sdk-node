@@ -1,0 +1,27 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ms-rest-js.isStreamOperation
+    name: isStreamOperation(OperationSpec)
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function isStreamOperation(operationSpec: OperationSpec)'
+      parameters:
+        - id: operationSpec
+          type:
+            - ms-rest-js.OperationSpec
+          description: ''
+      return:
+        type:
+          - boolean
+    package: ms-rest-js
+references:
+  - uid: ms-rest-js.OperationSpec
+    name: OperationSpec
+    spec.typeScript:
+      - name: OperationSpec
+        fullName: OperationSpec
+        uid: ms-rest-js.OperationSpec

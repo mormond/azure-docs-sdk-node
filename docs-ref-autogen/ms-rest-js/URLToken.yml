@@ -1,0 +1,169 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ms-rest-js.URLToken
+    name: URLToken
+    fullName: URLToken
+    children:
+      - ms-rest-js.URLToken.host
+      - ms-rest-js.URLToken.path
+      - ms-rest-js.URLToken.port
+      - ms-rest-js.URLToken.query
+      - ms-rest-js.URLToken.scheme
+      - ms-rest-js.URLToken.text
+      - ms-rest-js.URLToken.type
+      - ms-rest-js.URLToken.constructor
+    langs:
+      - typeScript
+    type: class
+    summary: ''
+    package: ms-rest-js
+  - uid: ms-rest-js.URLToken.host
+    name: host(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function host(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - ms-rest-js.URLToken
+    package: ms-rest-js
+  - uid: ms-rest-js.URLToken.path
+    name: path(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function path(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - ms-rest-js.URLToken
+    package: ms-rest-js
+  - uid: ms-rest-js.URLToken.port
+    name: port(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function port(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - ms-rest-js.URLToken
+    package: ms-rest-js
+  - uid: ms-rest-js.URLToken.query
+    name: query(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function query(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - ms-rest-js.URLToken
+    package: ms-rest-js
+  - uid: ms-rest-js.URLToken.scheme
+    name: scheme(string)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'static function scheme(text: string)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+      return:
+        type:
+          - ms-rest-js.URLToken
+    package: ms-rest-js
+  - uid: ms-rest-js.URLToken.text
+    name: text
+    fullName: text
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'text: string'
+      return:
+        type:
+          - string
+    package: ms-rest-js
+  - uid: ms-rest-js.URLToken.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: URLTokenType'
+      return:
+        type:
+          - ms-rest-js.URLTokenType
+    package: ms-rest-js
+  - uid: ms-rest-js.URLToken.constructor
+    name: 'URLToken(string, URLTokenType)'
+    children: []
+    type: constructor
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'new URLToken(text: string, type: URLTokenType)'
+      parameters:
+        - id: text
+          type:
+            - string
+          description: ''
+        - id: type
+          type:
+            - ms-rest-js.URLTokenType
+          description: ''
+    package: ms-rest-js
+references:
+  - uid: ms-rest-js.URLTokenType
+    name: URLTokenType
+    spec.typeScript:
+      - name: URLTokenType
+        fullName: URLTokenType
+        uid: ms-rest-js.URLTokenType
+  - uid: ms-rest-js.URLToken
+    name: URLToken
+    spec.typeScript:
+      - name: URLToken
+        fullName: URLToken
+        uid: ms-rest-js.URLToken

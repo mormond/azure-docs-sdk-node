@@ -1,0 +1,82 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ms-rest-js.RetryError
+    name: RetryError
+    fullName: RetryError
+    children:
+      - ms-rest-js.RetryError.code
+      - ms-rest-js.RetryError.Error
+      - ms-rest-js.RetryError.innerError
+      - ms-rest-js.RetryError.message
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: Error
+    package: ms-rest-js
+  - uid: ms-rest-js.RetryError.code
+    name: code
+    fullName: code
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'code?: string'
+      return:
+        type:
+          - string
+    package: ms-rest-js
+  - uid: ms-rest-js.RetryError.Error
+    name: Error
+    fullName: Error
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'Error: ErrorConstructor'
+      return:
+        type:
+          - ErrorConstructor
+    package: ms-rest-js
+  - uid: ms-rest-js.RetryError.innerError
+    name: innerError
+    fullName: innerError
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    optional: true
+    syntax:
+      content: 'innerError?: RetryError'
+      return:
+        type:
+          - ms-rest-js.RetryError
+    package: ms-rest-js
+  - uid: ms-rest-js.RetryError.message
+    name: message
+    fullName: message
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'message: string'
+      return:
+        type:
+          - string
+    package: ms-rest-js
+references:
+  - uid: ms-rest-js.RetryError
+    name: RetryError
+    spec.typeScript:
+      - name: RetryError
+        fullName: RetryError
+        uid: ms-rest-js.RetryError
