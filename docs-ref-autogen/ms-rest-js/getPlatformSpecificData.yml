@@ -1,0 +1,25 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ms-rest-js.getPlatformSpecificData
+    name: getPlatformSpecificData()
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: function getPlatformSpecificData()
+      parameters: []
+      return:
+        type:
+          - 'ms-rest-js.TelemetryInfo[]'
+    package: ms-rest-js
+references:
+  - uid: 'ms-rest-js.TelemetryInfo[]'
+    name: 'TelemetryInfo[]'
+    spec.typeScript:
+      - name: TelemetryInfo
+        fullName: TelemetryInfo
+        uid: ms-rest-js.TelemetryInfo
+      - name: '[]'
+        fullName: '[]'

@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ms-rest-js.flattenResponse
+    name: 'flattenResponse(HttpOperationResponse, OperationResponse | undefined)'
+    children: []
+    type: function
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: >-
+        function flattenResponse(_response: HttpOperationResponse, responseSpec:
+        OperationResponse | undefined)
+      parameters:
+        - id: _response
+          type:
+            - ms-rest-js.HttpOperationResponse
+          description: ''
+        - id: responseSpec
+          type:
+            - ms-rest-js.OperationResponse | undefined
+          description: ''
+      return:
+        type:
+          - ms-rest-js.RestResponse
+    package: ms-rest-js
+references:
+  - uid: ms-rest-js.HttpOperationResponse
+    name: HttpOperationResponse
+    spec.typeScript:
+      - name: HttpOperationResponse
+        fullName: HttpOperationResponse
+        uid: ms-rest-js.HttpOperationResponse
+  - uid: ms-rest-js.OperationResponse | undefined
+    name: OperationResponse | undefined
+    spec.typeScript:
+      - name: OperationResponse
+        fullName: OperationResponse
+        uid: ms-rest-js.OperationResponse
+      - name: ' | undefined'
+        fullName: ' | undefined'
+  - uid: ms-rest-js.RestResponse
+    name: RestResponse
+    spec.typeScript:
+      - name: RestResponse
+        fullName: RestResponse
+        uid: ms-rest-js.RestResponse

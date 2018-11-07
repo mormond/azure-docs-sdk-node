@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ms-rest-js.HttpHeader
+    name: HttpHeader
+    fullName: HttpHeader
+    children:
+      - ms-rest-js.HttpHeader.name
+      - ms-rest-js.HttpHeader.value
+    langs:
+      - typeScript
+    type: interface
+    summary: An individual header within a HttpHeaders collection.
+    package: ms-rest-js
+  - uid: ms-rest-js.HttpHeader.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The name of the header.
+    syntax:
+      content: 'name: string'
+      return:
+        type:
+          - string
+    package: ms-rest-js
+  - uid: ms-rest-js.HttpHeader.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: The value of the header.
+    syntax:
+      content: 'value: string'
+      return:
+        type:
+          - string
+    package: ms-rest-js

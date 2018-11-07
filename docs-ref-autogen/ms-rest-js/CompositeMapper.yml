@@ -1,0 +1,41 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ms-rest-js.CompositeMapper
+    name: CompositeMapper
+    fullName: CompositeMapper
+    children:
+      - ms-rest-js.CompositeMapper.type
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    extends:
+      name: ms-rest-js.BaseMapper
+    package: ms-rest-js
+  - uid: ms-rest-js.CompositeMapper.type
+    name: type
+    fullName: type
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'type: CompositeMapperType'
+      return:
+        type:
+          - ms-rest-js.CompositeMapperType
+    package: ms-rest-js
+references:
+  - uid: ms-rest-js.BaseMapper
+    name: BaseMapper
+    spec.typeScript:
+      - name: BaseMapper
+        fullName: BaseMapper
+        uid: ms-rest-js.BaseMapper
+  - uid: ms-rest-js.CompositeMapperType
+    name: CompositeMapperType
+    spec.typeScript:
+      - name: CompositeMapperType
+        fullName: CompositeMapperType
+        uid: ms-rest-js.CompositeMapperType

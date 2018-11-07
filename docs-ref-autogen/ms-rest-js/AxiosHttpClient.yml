@@ -1,0 +1,47 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ms-rest-js.AxiosHttpClient
+    name: AxiosHttpClient
+    fullName: AxiosHttpClient
+    children:
+      - ms-rest-js.AxiosHttpClient.sendRequest
+    langs:
+      - typeScript
+    type: class
+    summary: A HttpClient implementation that uses axios to send HTTP requests.
+    package: ms-rest-js
+  - uid: ms-rest-js.AxiosHttpClient.sendRequest
+    name: sendRequest(WebResource)
+    children: []
+    type: method
+    langs:
+      - typeScript
+    summary: ''
+    syntax:
+      content: 'function sendRequest(httpRequest: WebResource)'
+      parameters:
+        - id: httpRequest
+          type:
+            - ms-rest-js.WebResource
+          description: ''
+      return:
+        type:
+          - Promise<ms-rest-js.HttpOperationResponse>
+    package: ms-rest-js
+references:
+  - uid: ms-rest-js.WebResource
+    name: WebResource
+    spec.typeScript:
+      - name: WebResource
+        fullName: WebResource
+        uid: ms-rest-js.WebResource
+  - uid: Promise<ms-rest-js.HttpOperationResponse>
+    name: HttpOperationResponse>
+    spec.typeScript:
+      - name: Promise<
+        fullName: Promise<
+      - name: HttpOperationResponse
+        fullName: HttpOperationResponse
+        uid: ms-rest-js.HttpOperationResponse
+      - name: '>'
+        fullName: '>'

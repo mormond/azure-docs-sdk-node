@@ -1,0 +1,22 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ms-rest-js.HttpClient
+    name: HttpClient
+    fullName: HttpClient
+    children: []
+    langs:
+      - typeScript
+    type: interface
+    summary: >-
+      An interface that can send HttpRequests and receive promised
+      HttpResponses.
+    extends:
+      name: ms-rest-js.RequestPolicy
+    package: ms-rest-js
+references:
+  - uid: ms-rest-js.RequestPolicy
+    name: RequestPolicy
+    spec.typeScript:
+      - name: RequestPolicy
+        fullName: RequestPolicy
+        uid: ms-rest-js.RequestPolicy

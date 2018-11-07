@@ -1,0 +1,48 @@
+### YamlMime:UniversalReference
+items:
+  - uid: ms-rest-js.DictionaryMapperType
+    name: DictionaryMapperType
+    fullName: DictionaryMapperType
+    children:
+      - ms-rest-js.DictionaryMapperType.name
+      - ms-rest-js.DictionaryMapperType.value
+    langs:
+      - typeScript
+    type: interface
+    summary: ''
+    package: ms-rest-js
+  - uid: ms-rest-js.DictionaryMapperType.name
+    name: name
+    fullName: name
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'name: "Dictionary"'
+      return:
+        type:
+          - '"Dictionary"'
+    package: ms-rest-js
+  - uid: ms-rest-js.DictionaryMapperType.value
+    name: value
+    fullName: value
+    children: []
+    langs:
+      - typeScript
+    type: property
+    summary: ''
+    syntax:
+      content: 'value: Mapper'
+      return:
+        type:
+          - ms-rest-js.Mapper
+    package: ms-rest-js
+references:
+  - uid: ms-rest-js.Mapper
+    name: Mapper
+    spec.typeScript:
+      - name: Mapper
+        fullName: Mapper
+        uid: ms-rest-js.Mapper
