@@ -573,6 +573,14 @@
         landingPageType: Service
         children:
         - azure-arm-powerbiembedded
+    - name: PowerBI Visual Tools
+      uid: azure.nodejs.sdk.landingpage.services.powerbvisualtools
+      items:
+      - name: Management
+        uid: azure.nodejs.sdk.landingPage.services.powerbvisualtools.Management
+        landingPageType: Service
+        children:
+        - powerbi-visuals-tools        
     - name: Recovery Services
       uid: azure.nodejs.sdk.landingpage.services.rescoveryservices
       landingPageType: Service
