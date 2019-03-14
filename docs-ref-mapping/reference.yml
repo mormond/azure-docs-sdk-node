@@ -134,6 +134,14 @@
         landingPageType: Service
         children:
         - azure-arm-billing
+     - name: Bot Service
+      uid: azure.nodejs.sdk.landingpage.services.botservice
+      items:
+      - name: Management
+        uid: azure.nodejs.sdk.landingPage.services.botservice.Management
+        landingPageType: Service
+        children:
+        - botbuilder
     - name: CDN
       uid: azure.nodejs.sdk.landingpage.services.cdn
       href: ~/docs-ref-services/cdn.md
