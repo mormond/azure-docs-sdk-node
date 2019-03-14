@@ -134,11 +134,11 @@
         landingPageType: Service
         children:
         - azure-arm-billing
-     - name: Bot Service
+    - name: Bot Service
       uid: azure.nodejs.sdk.landingpage.services.botservice
       items:
       - name: Management
-        uid: azure.nodejs.sdk.landingPage.services.botservice.Management
+        uid: azure.nodejs.sdk.landingPage.services.BotService.Management
         landingPageType: Service
         children:
         - botbuilder
