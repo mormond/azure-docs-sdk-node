@@ -941,5 +941,3 @@
       children:
         - azure
         - '*'
-        - ms-rest
-        - ms-rest-azure
