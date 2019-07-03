@@ -7,12 +7,12 @@
       uid: azure.nodejs.sdk.landingpage.services.activedirectory
       href: ~/docs-ref-services/activedirectory.md
       items:
-      children:
-      - azure-graph
-      - adal-node
-      - '@azure/graph'
-      - azure-arm-domainservices
-      - '@azure/arm-domainservices'
+      - children:
+        - azure-graph
+        - adal-node
+        - '@azure/graph'
+        - azure-arm-domainservices
+        - '@azure/arm-domainservices'
     - name: Advisor
       uid: azure.nodejs.sdk.landingpage.services.advisor
       href: ~/docs-ref-services/advisor.md
