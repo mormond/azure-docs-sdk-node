@@ -7,7 +7,7 @@
       uid: azure.nodejs.sdk.landingpage.services.activedirectory
       href: ~/docs-ref-services/activedirectory.md
       items:
-      - children:
+      children:
         - azure-graph
         - adal-node
         - '@azure/graph'
@@ -17,7 +17,7 @@
       uid: azure.nodejs.sdk.landingpage.services.advisor
       href: ~/docs-ref-services/advisor.md
       items:
-      - children:
+      children:
         - azure-arm-advisor
         - '@azure/arm-advisor*'
     - name: Analysis Services
