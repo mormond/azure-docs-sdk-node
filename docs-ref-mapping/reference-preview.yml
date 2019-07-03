@@ -939,7 +939,7 @@
       uid: azure.nodejs.sdk.landingpage.services.other
       href: ~/docs-ref-services/other.md
       children:
-      - azure
-      - '*'
-      - ms-rest
-      - ms-rest-azure
+        - azure
+        - '*'
+        - ms-rest
+        - ms-rest-azure
