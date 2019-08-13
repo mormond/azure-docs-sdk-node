@@ -291,6 +291,11 @@
         children:
         - microsoft-cognitiveservices-speech-sdk
         - microsoft-speech-browser-sdk
+      - name: Personalizer
+        uid: microsoft-cognitiveservices-personalizer
+        landingPageType: Service
+        children:
+        - '@azure/cognitiveservices-personalizer'
       - name: QnA Maker
         uid: microsoft-cognitiveservices-qna-maker
         landingPageType: Service
