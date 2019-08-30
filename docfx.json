@@ -27,7 +27,7 @@
         "dest": "api/overview/azure",
         "group": "stable",
         "version": "azure-node-latest"
-      }
+      },
       {
         "files": [
           "**/toc.md",
