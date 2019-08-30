@@ -174,8 +174,12 @@
       - name: Anomaly Detector
         uid: azure.nodejs.sdk.landingPage.services.Cognitive.Services.AnomalyDetector
         href: ~/azure-sdk-for-js/sdk/cognitiveservices/cognitiveservices-anomalydetector/README.md
-        children:
-        - '@azure/cognitiveservices-anomalydetector'
+        items:
+        - name: SDK
+          uid: azure.nodejs.sdk.landingPage.services.Cognitive.Services.AnomalyDetector.SDK
+          landingPageType: Service
+          children:
+          - '@azure/cognitiveservices-anomalydetector'
       - name: Bing Auto Suggest
         uid: azure.nodejs.sdk.landingPage.services.Cognitive.Services.Bing.AutoSuggest
         href: ~/azure-sdk-for-js/sdk/cognitiveservices/cognitiveservices-autosuggest/README.md
